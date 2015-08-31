@@ -1,0 +1,127 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/rosso"
+    android:text="@color/white"
+    tools:context="com.texasfoodmenu.aleinux.texasfoodmenu.Stromboli">
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/stromboli"
+                android:textSize="24sp"
+                android:padding="3dip"
+                android:textStyle="bold|italic"
+                android:layout_span="2"
+                android:textColor="@color/white" />
+            <TextView
+                android:textSize="24sp"
+                android:text="@string/normale"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/porchetta_stromboli"
+                android:padding="3dip"
+                android:layout_span="2"
+                android:textColor="@color/white" />
+            <TextView
+                android:text="@string/e300"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textColor="@color/white" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/salsiccia_stromboli"
+                android:padding="3dip"
+                android:layout_span="2"
+                android:textColor="@color/white" />
+            <TextView
+                android:text="@string/e300"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textColor="@color/white" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/speck_stromboli"
+                android:padding="3dip"
+                android:layout_span="2"
+                android:textColor="@color/white" />
+            <TextView
+                android:text="@string/e300"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textColor="@color/white" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/ortolano_stromboli"
+                android:padding="3dip"
+                android:layout_span="2"
+                android:textColor="@color/white" />
+            <TextView
+                android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textColor="@color/white" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/texano_stromboli"
+                android:padding="3dip"
+                android:layout_span="2"
+                android:textColor="@color/white" />
+            <TextView
+                android:text="@string/e450"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textColor="@color/white" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/cavallo_stromboli"
+                android:padding="3dip"
+                android:layout_span="2"
+                android:textColor="@color/white" />
+            <TextView
+                android:text="@string/e500"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textColor="@color/white" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/bresaola_stromboli"
+                android:padding="3dip"
+                android:layout_span="2"
+                android:textColor="@color/white" />
+            <TextView
+                android:text="@string/e500"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

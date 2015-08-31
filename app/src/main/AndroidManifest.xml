@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.texasfoodmenu.aleinux.texasfoodmenu" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Panini"
+            android:label="@string/title_activity_panini" >
+        </activity>
+        <activity
+            android:name=".Piadine"
+            android:label="@string/title_activity_piadine" >
+        </activity>
+        <activity
+            android:name=".Stuzzicheria"
+            android:label="@string/title_activity_stuzzicheria" >
+        </activity>
+        <activity
+            android:name=".Insalate"
+            android:label="@string/title_activity_insalate" >
+        </activity>
+        <activity
+            android:name=".Stromboli"
+            android:label="@string/title_activity_stromboli" >
+        </activity>
+        <activity
+            android:name=".Salse"
+            android:label="@string/title_activity_salse" >
+        </activity>
+        <activity
+            android:name=".Pizze"
+            android:label="@string/title_activity_pizze" >
+        </activity>
+        <activity
+            android:name=".info"
+            android:label="@string/title_activity_info" >
+        </activity>
+    </application>
+
+</manifest>

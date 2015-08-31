@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Texas Food Menu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pizze">Pizze</string>
+    <string name="panini">Panini</string>
+    <string name="piadine">Piadine</string>
+    <string name="stuzzicheria">Appetizers</string>
+    <string name="insalate">Salads</string>
+    <string name="stromboli">Stromboli</string>
+    <string name="salse">Sauces</string>
+    <string name="dovesiamo">Where are we</string>
+
+    <string name="texas"><b>Texas:</b> pom., mozzarella, salsiccia, melanzane, emmenthal, cipolla</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_pizze">Pizze</string>
+    <string name="title_activity_panini">Panini</string>
+    <string name="title_activity_piadine">Piadine</string>
+    <string name="title_activity_stuzzicheria">Stuzzicheria</string>
+    <string name="title_activity_insalate">Insalate</string>
+    <string name="title_activity_stromboli">Stromboli</string>
+    <string name="title_activity_salse">Salse</string>
+    <string name="title_activity_dove_siamo">DoveSiamo</string>
+    <string name="capricciosa">Capricciosa</string>
+    <string name="e900">€ 9,00</string>
+    <string name="e800">€ 8,00</string>
+    <string name="e350">€ 3,50</string>
+    <string name="e700">€ 7,00</string>
+    <string name="normale">Normale</string>
+    <string name="maxi">Maxi</string>
+    <string name="margherita">Margherita</string>
+    <string name="info">di Pasquale Vittoria e Daniela Cilia\nViale della Resistenza, 70 Comiso (RG)\nINFO e PRENOZAZIONI 329.1884116</string>
+</resources>

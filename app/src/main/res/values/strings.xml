@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">Texas Food Menu</string>
+
+    <string name="hello_world">Ciao Mondo!</string>
+    <string name="action_settings">Info</string>
+    <string name="pizze">Pizze</string>
+    <string name="panini">Panini</string>
+    <string name="piadine">Piadine</string>
+    <string name="stuzzicheria">Stuzzicheria</string>
+    <string name="insalate">Insalate</string>
+    <string name="stromboli">Stromboli</string>
+    <string name="salse">Salse</string>
+    <string name="dovesiamo">Dove siamo</string>
+    <string name="anniInsieme">10 Anni Insieme</string>
+
+    //dimensioni pizze
+    <string name="normale">Normale</string>
+    <string name="maxi">Maxi</string>
+
+    //pizze
+    <string name="texas"><b>Texas:</b> <i>pomodoro, mozzarella, salsiccia, melanzane, emmenthal, cipolla</i></string>
+    <string name="capricciosa"><b>Capricciosa:</b> <i>pomodoro, mozz., cotto, piselli*, uovo, carciofi</i></string>
+    <string name="margherita"><b>Margherita:</b> <i>pomodoro, mozzarella</i></string>
+    <string name="patapizza"><b>Patapizza:</b> <i>pomodoro, mozzarella, patatine fritte*</i></string>
+    <string name="primavera"><b>Primavera:</b> <i>pomodoro, mozzarella, rucola, mais, grana</i></string>
+    <string name="al_crudo"><b>Al crudo:</b> <i>pomodoro, mozzarella, prosciutto crudo</i></string>
+    <string name="formaggi_4"><b>4 formaggi:</b> <i>pom., mozz., emmenthal, gorgonzola, provola affum.</i></string>
+    <string name="vulcano"><b>Vulcano:</b> <i>pom., mozzarella, salame piccante, funghi, provola affum.</i></string>
+    <string name="fuggitiva"><b>Fuggitiva:</b> <i>pom., mozzarella, speck, emmenthal, olive</i></string>
+    <string name="parmigiana"><b>Parmigiana:</b> <i>pomodoro, mozzarella, melanzane, grana</i></string>
+    <string name="siciliana"><b>Siciliana:</b> <i>pomodoro, mozzarella, salsiccia, ricotta</i></string>
+    <string name="zero_zero_sette"><b>007:</b> <i>pom., mozzarella, funghi, cotto, wurstell, uovo</i></string>
+    <string name="stagioni_4"><b>4 stagioni:</b> <i>pom., mozz., cotto, funghi, carciofi, salsiccia</i></string>
+    <string name="mezze_stagioni"><b>Mezze stagioni:</b> <i>pom., mozz., cotto, funghi, piselli*, wurstell</i></string>
+    <string name="vegetariana"><b>Vegetariana:</b> <i>pom., mozz., melanzane, zucchine, funghi, piselli*</i></string>
+    <string name="diavola"><b>Diavola:</b> <i>pomodoro, mozzarella, salame piccante</i></string>
+    <string name="frutti_di_mare"><b>Frutti di mare:</b> <i>pomodoro, mozzarella, frutti di mare*</i></string>
+    <string name="tonno_e_cipolla"><b>Tonno e cipolla:</b> <i>pomodoro, mozzarella, tonno, cipolla</i></string>
+    <string name="valtellina"><b>Valtellina:</b> <i>pom., mozz., bresaola, rucola, grana</i></string>
+    <string name="tirolese"><b>Tirolese:</b> <i>pom., mozz., speck, emmenthal, funghi</i></string>
+    <string name="nancy"><b>Nancy:</b> <i>pomodoro, mozzarella, zucchina, funghi, cotto, grana</i></string>
+    <string name="trevisana"><b>Trevisana:</b> <i>pomodoro, mozzarella, radicchio, grana</i></string>
+    <string name="autunno"><b>Autunno:</b> <i>pomodoro, mozzarella, funghi, emmenthal, porchetta</i></string>
+    <string name="pino"><b>Pinò:</b> <i>pomodoro, mozzarella, pancetta, carciofi</i></string>
+    <string name="squisita"><b>Squisita:</b> <i>mozzarella, spinaci*, salsiccia, grana</i></string>
+    <string name="sfiziosa"><b>Sfiziosa:</b> <i>pomodoro, mozzarella, porchetta</i></string>
+    <string name="valdostana"><b>Valdostana:</b> <i>pomodoro, mozzarella, radicchio, speck, grana</i></string>
+    <string name="contadina"><b>Contadina:</b> <i>pomodoro, mozzarella, salame, piccante, salsiccia, porchetta</i></string>
+    <string name="piemontese"><b>Piemontese:</b> <i>pomodoro, mozzarella, funghi, gorgonzola</i></string>
+    <string name="palermitana"><b>Palermitana:</b> <i>pomodoro, mozzarella, melanzane, cotto, uovo</i></string>
+    <string name="delNapoletano"><b>Del napoletano:</b> <i>mozzarella, crudo, salsiccia</i></string>
+    <string name="spinacina"><b>Spinacina:</b> <i>pomodoro, mozzarella, spinaci*, ricotta, grana</i></string>
+    <string name="padovana"><b>Padovana:</b> <i>pomodoro, mozzarella, funghi, speck, emmenthal, radicchio</i></string>
+    <string name="aiPorcini"><b>Ai porcini:</b> <i>pomodoro, mozzarella, funghi porcini</i></string>
+    <string name="bufala"><b>Bufala:</b> <i>pomodoro, mozzarella, mozzarella di bufala</i></string>
+    <string name="porcellini3"><b>3 porcellini:</b> <i>pomodoro, mozzarella, cotto, wurstell, salsiccia</i></string>
+    <string name="pizzapiu"><b>Pizzapiù:</b> <i>pomodoro, mozzarella, funghi, rucola, grana</i></string>
+    <string name="carbonara"><b>Carbonara:</b> <i>pomodoro, mozzarella, pancetta, uovo</i></string>
+    <string name="angel"><b>Angel:</b> <i>pomodoro, mozzarella, cotto, funghi</i></string>
+    <string name="tattoo"><b>Tattoo:</b> <i>mozzarella, funghi porcini, cotto, cipolla</i></string>
+    <string name="carciofina"><b>Carciofina:</b> <i>mozzarella, patè di carciofi, carciofi, speck</i></string>
+    <string name="diLusso"><b>Di lusso:</b> <i>pomodoro, mozzarella, porcini, pancetta, patatine*</i></string>
+    <string name="affumicata"><b>Affumicata:</b> <i>pomodoro, mozzarella, provola affumicata, grana</i></string>
+    <string name="aristocratica"><b>Aristocratica:</b> <i>pomodoro, mozzarella, porcini, gorgonzola, noci</i></string>
+    <string name="kasanova"><b>Kasanova:</b> <i>pomodoro, mozzarella, provola affumicata, speck, rucola</i></string>
+    <string name="emiliana"><b>Emiliana:</b> <i>pomodoro, mozzarella, porcini, grana</i></string>
+    <string name="ciociara"><b>Ciociara:</b> <i>pomodoro, mozzarella, carciofi, porchetta</i></string>
+    <string name="favolosa"><b>Favolosa:</b> <i>pomodoro, mozzarella, porcini, speck, grana</i></string>
+    <string name="salumi"><b>Salumi:</b> <i>pomodoro, mozzarella,pancetta, porchetta, salame piccante</i></string>
+    <string name="antoniana"><b>Antoniana:</b> <i>pomodoro, mozzarella, cipolla, funghi, bacon</i></string>
+    <string name="francescana"><b>Francescana:</b> <i>pomodoro, mozzarella, piselli*, emmenthal, crudo</i></string>
+    <string name="gratin"><b>Gratin:</b> <i>pomodoro, mozzarella, gamberi*, zucchine, pane gratinato</i></string>
+    <string name="norveggese"><b>Norveggese:</b> <i>mozzarella, panna, salmone</i></string>
+    <string name="cavallina"><b>Cavallina:</b> <i>pomodoro, mozzarella, sfilacci di cavallo, funghi piccanti</i></string>
+    <string name="carnivora"><b>Carnivora:</b> <i>pomodoro, mozzarella, sfilacci, di cavallo, petto di pollo, salsiccia</i></string>
+    <string name="patacrock"><b>Pata-crock:</b> <i>pomodoro, mozzarella, patatine, crocchette di patate</i></string>
+    <string name="nutella"><b>Nutella:</b> <i>nutella</i></string>
+    <string name="nutella2"><b>Nutella 2:</b> <i>nutella, panna</i></string>
+    <string name="nutella3"><b>Nutella 3:</b> <i>nutella, ricotta, cannella</i></string>
+
+    //panini
+    <string name="texas_panino"><b>Texas:</b> <i>salsiccia, melanzane, emmenthal, cipolla*, tabasco, PKM</i></string>
+    <string name="dallas_panino"><b>Dallas:</b> <i>hamburger*, zucchine, emmenthal, cipolla*, tabasco, PKM</i></string>
+    <string name="cactus_panino"><b>Cactus:</b> <i>pomodoro, mozzarella, lattuga, mais, grana, PKM</i></string>
+    <string name="scheriffo_panino"><b>Sceriffo:</b> <i>porchetta, provola, PKM</i></string>
+    <string name="cowboy_panino"><b>Cowboy:</b> <i>wurstell, PKM</i></string>
+    <string name="pistolero_panino"><b>Pistolero:</b> <i>cordon-bleu*, lattuga, PKM</i></string>
+    <string name="taco_panino"><b>Taco:</b> <i>prosciutto crudo, mozzarella, lattuga, PKM</i></string>
+    <string name="sombrero_panino"><b>Sombrero:</b> <i>prosciutto cotto, provola, PKM</i></string>
+    <string name="colorado_panino"><b>Colorado:</b> <i>petto di pollo, pomodoro, lattuga, PKM</i></string>
+    <string name="mexico_panino"><b>Mexico:</b> <i>hamburger*, pomodoro, lattuga, PKM</i></string>
+    <string name="farwest_panino"><b>Far west:</b> <i>salame picc., provola affum., funghi picc., tab., PKM</i></string>
+    <string name="grandcanyon_panino"><b>Grand canyon:</b> <i>pomodoro, mozzarella, lattuga, PKM</i></string>
+    <string name="dune_panino"><b>Dune:</b> <i>petto di pollo, pomodoro, emmenthal, PKM</i></string>
+    <string name="fuego_panino"><b>Fuego:</b> <i>speck, emmenthal, lattuga, PKM</i></string>
+    <string name="stallone_panino"><b>Stallone:</b> <i>pancetta, provola, PKM</i></string>
+    <string name="bang_panino"><b>Bang:</b> <i>porchetta, emmenthal, lattuga, PKM</i></string>
+    <string name="weston_panino"><b>Weston:</b> <i>salsiccia, lattuga, PKM</i></string>
+    <string name="rucola_panino"><b>Rucola:</b> <i>bresaola, rucola, grana, PKM</i></string>
+    <string name="valtellina_panino"><b>Valtellina:</b> <i>bresaola, emmenthal, funghi freschi, PKM</i></string>
+    <string name="kennedy_panino"><b>Kennedy:</b> <i>cotoletta di pollo*, PKM</i></string>
+    <string name="gustoso_panino"><b>Gustoso:</b> <i>prosc. crudo, emmenthal, patè di carciofi, melanzane, PKM</i></string>
+    <string name="vegetariano_panino"><b>Vegetariano:</b> <i>melanzane, zucchine, funghi, emmenthal, PKM</i></string>
+    <string name="cynar_panino"><b>Cynar:</b> <i>prosciutto cotto, emmenthal, patè di carciofi, PKM</i></string>
+    <string name="olivia_panino"><b>Olivia:</b> <i>prosciutto crudo, emmenthal, patè di olive, PKM</i></string>
+    <string name="bacon_panino"><b>Bacon:</b> <i>hamburger*, provola, emmenthal, pancetta, PKM</i></string>
+    <string name="furia_panino"><b>Furia:</b> <i>Sfilacci di cavallo, provola, cipolla*, PKM</i></string>
+    <string name="kebab_panino"><b>Kebab:</b> <i>kebab*, pomodoro, lattuga, provola, PKM</i></string>
+    <string name="fabrizio_panino"><b>Fabrizio:</b> <i>salsiccia, emmenthal, PKM</i></string>
+    <string name="affumicato_panino"><b>Affumicato:</b> <i>sfil. di cavallo, bacon, bbq, provola, P salsa texas</i></string>
+    <string name="gabriele_panino"><b>Gabriele:</b> <i>cotoletta di pollo*, wurstell, PK</i></string>
+    <string name="texchicken_panino"><b>Tex-chicken:</b> <i>cotoletta di pollo*, speck, emmenthal, P salsa texas</i></string>
+    <string name="chips_panino"><b>Chips:</b> <i>patatine* KM</i></string>
+    <string name="royal_panino"><b>Royal:</b> <i>hamburger, cotoletta*, bacon, lattuga, cheddar, P salsa texas</i></string>
+
+    //piadine
+    <string name="piadina1"><b>Piadina 1:</b> <i>kebab, mozzarella, lattuga, PKM</i></string>
+    <string name="piadina2"><b>Piadina 2:</b> <i>sfilacci di cavallo, mozzarella, PKM</i></string>
+    <string name="piadina3"><b>Piadina 3:</b> <i>salsiccia, emmenthal, rucola, bbp, PKM</i></string>
+    <string name="piadina4"><b>Piadina 4:</b> <i>porchetta, provola, PKM</i></string>
+    <string name="piadina5"><b>Piadina 5:</b> <i>wurstell, mozzarella, PKM</i></string>
+    <string name="piadina6"><b>Piadina 6:</b> <i>cotto, mozzarella, PKM</i></string>
+    <string name="piadina7"><b>Piadina 7:</b> <i>pomodoro, mozzarella, lattuga, PKM</i></string>
+    <string name="texana_piadina"><b>Texana:</b> <i>kebab, bacon, mozzarella, P salsa texas</i></string>
+    <string name="affumicata_piadina"><b>Affumicata:</b> <i>sfilacci di cavallo, bbp, bacon, provola, P salsa texas</i></string>
+    <string name="nutella_piadina"><b>Nutella</b></string>
+    <string name="nutellapanna_piadina"><b>Nutella e panna</b> </string>
+    <string name="nutellaricottacannella_piadina"><b>Nutella, Ricotta, Cannella</b></string>
+
+    //stuzzicheria
+    <string name="rustica_stuzzicheria"><b>Rustica:</b> <i>chips, wurstell, bacon, lattuga</i></string>
+    <string name="misto1_stuzzicheria"><b>Misto 1:</b> <i>arancini ragù, olive ascolane, crocchette, nuggets, patatine</i></string>
+    <string name="misto2_stuzzicheria"><b>Misto 2:</b> <i>nuggets, anellini di cipolla, verdure pastrellate, casarecce</i></string>
+    <string name="misto3_stuzzicheria"><b>Misto 3:</b> <i>arancini di pesce, chele di granchio, anelli di totano, crocchette di pesce</i></string>
+    <string name="classica_stuzzicheria"><b>Classica:</b> <i>patatine, wurstell</i></string>
+    <string name="vertiginosa_stuzzicheria"><b>Vertiginosa:</b> <i>vertigo, bacon</i></string>
+    <string name="patatinepiccola_stuzzicheria"><b>Patatine:</b> <i>piccola</i></string>
+    <string name="patatinemedia_stuzzivheria"><b>Patatine:</b> <i>media</i></string>
+    <string name="patatinegrande_stuzzicheria"><b>Patatine:</b> <i>grande</i></string>
+    <string name="crocchette_stuzzicheria"><b>Crocchette di patate</b></string>
+    <string name="nuggets_stuzzicheria"><b>Nuggets</b></string>
+    <string name="patatinespeciali_stuzzicheria"><b>Patine speciali</b></string>
+
+    //insalate
+    <string name="caprese_insalate"><b>Caprese:</b> <i>pomodoro, mozzarella, lattuga</i></string>
+    <string name="alTonno_insalate"><b>Al tonno:</b> <i>tonno, lattuga, pomodoro, mais</i></string>
+    <string name="pollo1_insalate"><b>Pollo 1:</b> <i>petto di pollo, lattuga, pomodoro, mais, mozzarella</i></string>
+    <string name="pollo2_insalate"><b>Pollo 2:</b> <i>petto di pollo, zucchine, melanzane, funghi, mozzarella</i></string>
+    <string name="cavallo_insalate"><b>Cavallo:</b> <i>sfilacci di cavallo, rucola, pomodoro, provola</i></string>
+    <string name="kebab_insalate"><b>Kebab:</b> <i>kebab, lattuga, pomodoro, mais, provola</i></string>
+    <string name="salmone_insalate"><b>Salmone:</b> <i>salmone affumicato, lattuga, pomodoro, mais, mozzarella, salsa rosa</i></string>
+    <string name="bresaola_insalate"><b>Bresaola:</b> <i>bresaola, mozzarella, rucola, mais, grana</i></string>
+    <string name="vegetariana_insalate"><b>Vegetariana:</b> <i>melanzane, zucchine, funghi, radicchio, provola</i></string>
+
+    //stromboli
+    <string name="porchetta_stromboli"><b>Porchetta:</b> <i>pomodoro, mozzarella, porchetta, patatine</i></string>
+    <string name="salsiccia_stromboli"><b>Salsiccia:</b> <i>pomodoro, mozzarella, salsiccia, patatine</i></string>
+    <string name="speck_stromboli"><b>Speck:</b> <i>pomodoro, mozzarella, speck, patatine</i></string>
+    <string name="ortolano_stromboli"><b>Ortolano:</b> <i>mozzarella, piselli, spinaci, carciofi, funghi, patatine</i></string>
+    <string name="texano_stromboli"><b>Texano:</b> <i>mozzarella, kebab, bacon, patatine, salsa texas</i></string>
+    <string name="cavallo_stromboli"><b>Cavallo:</b> <i>pomodoro, mozzarella, sfilacci di cavallo, patatine</i></string>
+    <string name="bresaola_stromboli"><b>Bresaola:</b> <i>pomodoro, mozzarella, bresaola, rucola, patatine</i></string>
+
+    //prezzi
+    <string name="e100">€ 1,00</string>
+    <string name="e150">€ 1,50</string>
+    <string name="e200">€ 2,00</string>
+    <string name="e250">€ 2,50</string>
+    <string name="e300">€ 3,00</string>
+    <string name="e350">€ 3,50</string>
+    <string name="e400">€ 4,00</string>
+    <string name="e450">€ 4,50</string>
+    <string name="e500">€ 5,00</string>
+    <string name="e550">€ 5,50</string>
+    <string name="e600">€ 6,00</string>
+    <string name="e650">€ 6,50</string>
+    <string name="e700">€ 7,00</string>
+    <string name="e750">€ 7,50</string>
+    <string name="e800">€ 8,00</string>
+    <string name="e850">€ 8,50</string>
+    <string name="e900">€ 9,00</string>
+    <string name="e950">€ 9,50</string>
+    <string name="e1000">€ 10,00</string>
+    <string name="e1050">€ 10,50</string>
+    <string name="e1100">€ 11,00</string>
+    <string name="e1200">€ 12,00</string>
+    <string name="e1300">€ 13,00</string>
+    <string name="e1400">€ 14,00</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_pizze">Pizze</string>
+    <string name="title_activity_panini">Panini</string>
+    <string name="title_activity_piadine">Piadine</string>
+    <string name="title_activity_stuzzicheria">Stuzzicheria</string>
+    <string name="title_activity_insalate">Insalate</string>
+    <string name="title_activity_stromboli">Stromboli</string>
+    <string name="title_activity_salse">Salse</string>
+    <string name="title_activity_dove_siamo">DoveSiamo</string>
+    <string name="prodotto_surgelato">* prodotto surgelato</string>
+    <string name="title_activity_info">info</string>
+
+    <string name="createdby">created by: Alessandro Buscema</string>
+    <string name="info">di Pasquale Vittoria e Daniela Cilia\nViale della Resistenza, 70 Comiso (RG)\nINFO e PRENOZAZIONI 329.1884116</string>
+</resources>

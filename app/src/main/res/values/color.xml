@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <resources>
+        <color name="green_android">#A4c639</color>
+        <color name="white">#FFFFFF</color>
+        <color name="rosa_corallo">#FF9FA9</color>
+        <color name="nero">#000000</color>
+        <color name="rosso">#FF0000</color>
+        <color name="azzurro_pallido">#C1FFFF</color>
+        <color name="paglierino">#FFFFC2</color>
+    </resources>
