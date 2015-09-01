@@ -27,6 +27,7 @@ public class info extends AppCompatActivity {
         ((TextView) findViewById(R.id.createdby)).setTypeface(typeface);
 
         TextView textCell=(TextView)findViewById(R.id.cell);
+        textCell.setLinkTextColor(Color.BLACK);
         textCell.setText("3291884116");
         Linkify.addLinks(textCell, Linkify.PHONE_NUMBERS);
     }
