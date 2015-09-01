@@ -30,6 +30,7 @@ public class info extends AppCompatActivity {
         textCell.setLinkTextColor(Color.BLACK);
         textCell.setText("3291884116");
         Linkify.addLinks(textCell, Linkify.PHONE_NUMBERS);
+
     }
 
     @Override
