@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
+import android.view.animation.ScaleAnimation;
+import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
@@ -16,7 +18,7 @@ public class Pizze extends AppCompatActivity {
 
     private TableLayout tab;
     private Matrix matrix = new Matrix();
-    private float scale = 1f;
+    private float mScale = 1f;
     private ScaleGestureDetector scaleGestureDetector;
 
     @Override
@@ -62,7 +64,7 @@ public class Pizze extends AppCompatActivity {
         scaleGestureDetector.onTouchEvent(ev);
         return true;
     }
-
+/*
     private class ScaleListener extends
             ScaleGestureDetector.SimpleOnScaleGestureListener {
         @Override
@@ -71,6 +73,34 @@ public class Pizze extends AppCompatActivity {
             scale = Math.max(0.1f, Math.min(scale, 5.0f));
             matrix.setScale(scale, scale);
             //tab.setImageMatrix(matrix);
+            return true;
+        }
+    }
+*/
+    private class ScaleListener extends
+            ScaleGestureDetector.SimpleOnScaleGestureListener {
+        @Override
+        public boolean onScale(ScaleGestureDetector detector) {
+            float scale = 1 - detector.getScaleFactor();
+
+            float prevScale = mScale;
+            mScale += scale;
+
+            if (mScale < 0.1f) // Minimum scale condition:
+                mScale = 0.1f;
+
+            if (mScale > 10f) // Maximum scale condition:
+                mScale = 10f;
+            ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale,
+                    1f / mScale, 1f / prevScale, 1f / mScale,
+                    detector.getFocusX(), detector.getFocusY());
+            scaleAnimation.setDuration(0);
+            scaleAnimation.setFillAfter(true);
+
+// your layout you want pinch zoom
+            TableLayout layout = (TableLayout) findViewById(R.id.tabella);
+            layout.startAnimation(scaleAnimation);
+
             return true;
         }
     }
