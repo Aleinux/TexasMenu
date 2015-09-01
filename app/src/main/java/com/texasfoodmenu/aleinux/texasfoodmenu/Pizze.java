@@ -1,14 +1,23 @@
 package com.texasfoodmenu.aleinux.texasfoodmenu;
 
 import android.content.Intent;
+import android.graphics.Matrix;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
+import android.widget.TableLayout;
 import android.widget.TextView;
 
 public class Pizze extends AppCompatActivity {
+
+    private TableLayout tab;
+    private Matrix matrix = new Matrix();
+    private float scale = 1f;
+    private ScaleGestureDetector scaleGestureDetector;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,12 +29,14 @@ public class Pizze extends AppCompatActivity {
         ((TextView) findViewById(R.id.textPizze)).setTypeface(typeface);
         ((TextView) findViewById(R.id.textNormale)).setTypeface(typeface);
         ((TextView) findViewById(R.id.textMaxi)).setTypeface(typeface);
+
+        scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_pizze, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -44,5 +55,23 @@ public class Pizze extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent ev) {
+        scaleGestureDetector.onTouchEvent(ev);
+        return true;
+    }
+
+    private class ScaleListener extends
+            ScaleGestureDetector.SimpleOnScaleGestureListener {
+        @Override
+        public boolean onScale(ScaleGestureDetector detector) {
+            scale *= detector.getScaleFactor();
+            scale = Math.max(0.1f, Math.min(scale, 5.0f));
+            matrix.setScale(scale, scale);
+            //tab.setImageMatrix(matrix);
+            return true;
+        }
     }
 }

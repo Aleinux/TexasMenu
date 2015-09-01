@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Texas Food Menu</string>
+    <string name="app_name">Texas Menu</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -28,8 +28,9 @@
     <string name="e800">€ 8,00</string>
     <string name="e350">€ 3,50</string>
     <string name="e700">€ 7,00</string>
-    <string name="normale">Normale</string>
+    <string name="normale">Normal</string>
     <string name="maxi">Maxi</string>
     <string name="margherita">Margherita</string>
     <string name="info">di Pasquale Vittoria e Daniela Cilia\nViale della Resistenza, 70 Comiso (RG)\nINFO e PRENOZAZIONI 329.1884116</string>
+    <string name="anniInsieme">10 Years together</string>
 </resources>

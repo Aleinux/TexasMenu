@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Texas Food Menu</string>
+    <string name="app_name">Texas Menu</string>
 
     <string name="hello_world">Ciao Mondo!</string>
     <string name="action_settings">Info</string>
@@ -200,5 +200,5 @@
     <string name="title_activity_info">info</string>
 
     <string name="createdby">created by: Alessandro Buscema</string>
-    <string name="info">di Pasquale Vittoria e Daniela Cilia\nViale della Resistenza, 70 Comiso (RG)\nINFO e PRENOZAZIONI 329.1884116</string>
+    <string name="info">di Pasquale Vittoria e Daniela Cilia\nViale della Resistenza, 70 Comiso (RG)\nINFO e PRENOZAZIONI</string>
 </resources>
