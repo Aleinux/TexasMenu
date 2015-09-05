@@ -85,6 +85,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button button_locate = (Button)findViewById(R.id.button_locate);
+        button_locate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_locate = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(intent_locate);
+            }
+        });
+
     }
 
     @Override

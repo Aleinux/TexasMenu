@@ -3,6 +3,7 @@ package com.texasfoodmenu.aleinux.texasfoodmenu;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
@@ -11,6 +12,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MapsActivity extends FragmentActivity {
 
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
+    private final LatLng STARTING_POINT=new LatLng(36.950881, 14.607340);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +62,8 @@ public class MapsActivity extends FragmentActivity {
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
     private void setUpMap() {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+        mMap.addMarker(new MarkerOptions().position(STARTING_POINT).title("Texas"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(STARTING_POINT, 5));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(18), 2000, null);
     }
 }
