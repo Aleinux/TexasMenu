@@ -153,6 +153,10 @@
     <string name="vegetariana_insalate"><b>Vegetariana:</b> <i>melanzane, zucchine, funghi, radicchio, provola</i></string>
 
     //stromboli
+    <string name="cotto_stromboli"><b>Cotto:</b> <i>pomodoro, mozzarella, prosciutto cotto, patatine</i></string>
+    <string name="wurstell_stromboli"><b>Wurstell:</b> <i>pomodoro, mozzarella, wurstell, patatine</i></string>
+    <string name="salame_stromboli"><b>Salame:</b> <i>pomodoro, mozzarella, salame piccante, patatine</i></string>
+    <string name="kebab_stromboli"><b>Kebab:</b> <i>pomodoro, mozzarella, kebab, patatine</i></string>
     <string name="porchetta_stromboli"><b>Porchetta:</b> <i>pomodoro, mozzarella, porchetta, patatine</i></string>
     <string name="salsiccia_stromboli"><b>Salsiccia:</b> <i>pomodoro, mozzarella, salsiccia, patatine</i></string>
     <string name="speck_stromboli"><b>Speck:</b> <i>pomodoro, mozzarella, speck, patatine</i></string>
@@ -187,6 +191,7 @@
     <string name="e1300">€ 13,00</string>
     <string name="e1400">€ 14,00</string>
 
+    //Nomi delle pagine
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_pizze">Pizze</string>
     <string name="title_activity_panini">Panini</string>
@@ -199,10 +204,10 @@
     <string name="prodotto_surgelato">* prodotto surgelato</string>
     <string name="title_activity_info">info</string>
 
-    <string name="createdby">created by: Alessandro Buscema</string>
-    <string name="info">di Pasquale Vittoria e Daniela Cilia\nViale della Resistenza, 70 Comiso (RG)\nINFO e PRENOZAZIONI</string>
-    <string name="cotto_stromboli">Cotto: pomodoro, mozzarella, prosciutto cotto, patatine</string>
-    <string name="wurstell_stromboli">Wurstell: pomodoro, mozzarella, wurstell, patatine</string>
-    <string name="salame_stromboli">Salame: pomodoro, mozzarella, salame piccante, patatine</string>
-    <string name="kebab_stromboli">Kebab: pomodoro, mozzarella, kebab, patatine</string>
+    //Stringhe pagina info
+    <string name="info">di Pasquale Vittoria\nViale della Resistenza, 70 Comiso (RG)\nINFO e PRENOZAZIONI</string>
+    <string name="createdby">realizzata da: Alessandro Buscema</string>
+    <string name="esci">esci</string>
+    <string name="title_activity_maps">Map</string>
+
 </resources>

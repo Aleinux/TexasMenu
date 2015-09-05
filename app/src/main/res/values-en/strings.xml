@@ -31,10 +31,13 @@
     <string name="normale">Normal</string>
     <string name="maxi">Maxi</string>
     <string name="margherita">Margherita</string>
-    <string name="info">di Pasquale Vittoria e Daniela Cilia\nViale della Resistenza, 70 Comiso (RG)\nINFO e PRENOZAZIONI 329.1884116</string>
+    <string name="info">owner Pasquale Vittoria\nViale della Resistenza, 70 Comiso (RG)\nINFO e RESERVATIONS 329.1884116</string>
     <string name="anniInsieme">10 Years together</string>
-    <string name="cotto_stromboli">Cotto: pomodoro, mozzarella, prosciutto cotto, patatine</string>
+    <string name="cotto_stromboli"><b>Cotto:</b></string>
     <string name="wurstell_stromboli">Wurstell: pomodoro, mozzarella, wurstell, patatine</string>
     <string name="salame_stromboli">Salame: pomodoro, mozzarella, salame piccante, patatine</string>
     <string name="kebab_stromboli">Kebab: pomodoro, mozzarella, kebab, patatine</string>
+    <string name="esci">exit</string>
+    <string name="affumicata"><b>Affumicata:</b> <i>tomato, mozzarella, smoked cheese, grana cheese</i></string>
+    <string name="createdby">created by: Alessandro Buscema</string>
 </resources>

@@ -1,10 +1,12 @@
 package com.texasfoodmenu.aleinux.texasfoodmenu;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class Stromboli extends AppCompatActivity {
 
@@ -12,6 +14,11 @@ public class Stromboli extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stromboli);
+
+        //font personalizzato
+        Typeface typeface = Typeface.createFromAsset(getAssets(),"Playbill.ttf");
+        ((TextView) findViewById(R.id.textStromboli)).setTypeface(typeface);
+        ((TextView) findViewById(R.id.textNormale)).setTypeface(typeface);
     }
 
     @Override

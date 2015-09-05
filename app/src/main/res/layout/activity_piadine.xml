@@ -17,12 +17,16 @@
             <TextView
                 android:layout_column="1"
                 android:text="@string/piadine"
+                android:textSize="24sp"
+                android:id="@+id/textPiadine"
                 android:padding="3dip"
                 android:textStyle="bold|italic"
                 android:layout_span="2"
                 android:textColor="#000000" />
             <TextView
                 android:text="@string/normale"
+                android:textSize="24sp"
+                android:id="@+id/textNormale"
                 android:gravity="end"
                 android:padding="3dip"
                 android:textStyle="bold|italic"

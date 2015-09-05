@@ -104,6 +104,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = new Intent(MainActivity.this, info.class);
                 startActivity(i);
                 return true;
+            case R.id.exit:
+                finish();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
 

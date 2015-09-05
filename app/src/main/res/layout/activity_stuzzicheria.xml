@@ -18,12 +18,16 @@
             <TextView
                 android:layout_column="1"
                 android:text="@string/stuzzicheria"
+                android:textSize="24sp"
+                android:id="@+id/textStuzzicheria"
                 android:padding="3dip"
                 android:textStyle="bold|italic"
                 android:layout_span="2"
                 android:textColor="#000000" />
             <TextView
                 android:text="@string/normale"
+                android:textSize="24sp"
+                android:id="@+id/textNormale"
                 android:gravity="end"
                 android:padding="3dip"
                 android:textStyle="bold|italic"

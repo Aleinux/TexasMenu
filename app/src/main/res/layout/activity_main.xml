@@ -83,12 +83,4 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <Button
-        android:layout_width="165dp"
-        android:layout_height="wrap_content"
-        android:text="@string/dovesiamo"
-        android:id="@+id/button_dovesiamo"
-        android:layout_alignTop="@+id/button_salse"
-        android:layout_alignRight="@+id/button_stromboli"
-        android:layout_alignEnd="@+id/button_stromboli" />
 </RelativeLayout>

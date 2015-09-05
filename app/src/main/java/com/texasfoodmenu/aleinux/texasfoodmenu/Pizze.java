@@ -15,8 +15,6 @@ import android.widget.TextView;
 
 public class Pizze extends AppCompatActivity {
 
-    private TableLayout tab;
-    private Matrix matrix = new Matrix();
     private float mScale = 1f;
     private ScaleGestureDetector scaleGestureDetector;
 
