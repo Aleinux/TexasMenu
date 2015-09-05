@@ -33,4 +33,8 @@
     <string name="margherita">Margherita</string>
     <string name="info">di Pasquale Vittoria e Daniela Cilia\nViale della Resistenza, 70 Comiso (RG)\nINFO e PRENOZAZIONI 329.1884116</string>
     <string name="anniInsieme">10 Years together</string>
+    <string name="cotto_stromboli">Cotto: pomodoro, mozzarella, prosciutto cotto, patatine</string>
+    <string name="wurstell_stromboli">Wurstell: pomodoro, mozzarella, wurstell, patatine</string>
+    <string name="salame_stromboli">Salame: pomodoro, mozzarella, salame piccante, patatine</string>
+    <string name="kebab_stromboli">Kebab: pomodoro, mozzarella, kebab, patatine</string>
 </resources>
