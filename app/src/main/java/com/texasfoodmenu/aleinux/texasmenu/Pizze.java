@@ -1,7 +1,6 @@
-package com.texasfoodmenu.aleinux.texasfoodmenu;
+package com.texasfoodmenu.aleinux.texasmenu;
 
 import android.content.Intent;
-import android.graphics.Matrix;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +11,8 @@ import android.view.ScaleGestureDetector;
 import android.view.animation.ScaleAnimation;
 import android.widget.TableLayout;
 import android.widget.TextView;
+
+import com.texasfoodmenu.aleinux.texasfoodmenu.R;
 
 public class Pizze extends AppCompatActivity {
 

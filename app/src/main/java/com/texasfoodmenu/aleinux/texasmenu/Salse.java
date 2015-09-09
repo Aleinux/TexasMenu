@@ -1,24 +1,20 @@
-package com.texasfoodmenu.aleinux.texasfoodmenu;
+package com.texasfoodmenu.aleinux.texasmenu;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
-public class Panini extends AppCompatActivity {
+import com.texasfoodmenu.aleinux.texasfoodmenu.R;
+
+public class Salse extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_panini);
+        setContentView(R.layout.activity_salse);
 
-        //font personalizzato
-        Typeface typeface = Typeface.createFromAsset(getAssets(),"Playbill.ttf");
-        ((TextView) findViewById(R.id.textPanini)).setTypeface(typeface);
-        ((TextView) findViewById(R.id.textNormale)).setTypeface(typeface);
     }
 
     @Override
@@ -37,7 +33,7 @@ public class Panini extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent i = new Intent(Panini.this, info.class);
+            Intent i = new Intent(Salse.this, info.class);
             startActivity(i);
             return true;
         }

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.texasfoodmenu.aleinux.texasfoodmenu.Piadine">
+    tools:context="com.texasfoodmenu.aleinux.texasmenu.Piadine">
 
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"

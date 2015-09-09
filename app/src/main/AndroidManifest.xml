@@ -27,7 +27,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -37,35 +37,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Panini"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.Panini"
             android:label="@string/title_activity_panini" >
         </activity>
         <activity
-            android:name=".Piadine"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.Piadine"
             android:label="@string/title_activity_piadine" >
         </activity>
         <activity
-            android:name=".Stuzzicheria"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.Stuzzicheria"
             android:label="@string/title_activity_stuzzicheria" >
         </activity>
         <activity
-            android:name=".Insalate"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.Insalate"
             android:label="@string/title_activity_insalate" >
         </activity>
         <activity
-            android:name=".Stromboli"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.Stromboli"
             android:label="@string/title_activity_stromboli" >
         </activity>
         <activity
-            android:name=".Salse"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.Salse"
             android:label="@string/title_activity_salse" >
         </activity>
         <activity
-            android:name=".Pizze"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.Pizze"
             android:label="@string/title_activity_pizze" >
         </activity>
         <activity
-            android:name=".info"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.info"
             android:label="@string/title_activity_info" >
         </activity>
 
@@ -77,7 +77,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="com.texasfoodmenu.aleinux.texasmenu.MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
     </application>

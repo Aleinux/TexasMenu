@@ -6,7 +6,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:background="@color/azzurro_pallido"
-    tools:context="com.texasfoodmenu.aleinux.texasfoodmenu.Stuzzicheria">
+    tools:context="com.texasfoodmenu.aleinux.texasmenu.Stuzzicheria">
 
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
