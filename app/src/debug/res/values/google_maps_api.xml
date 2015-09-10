@@ -4,7 +4,7 @@
 
     To get one, follow this link, follow the directions and press "Create" at the end:
 
-https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=0C:29:4C:65:90:32:87:8F:31:99:BD:CD:94:D3:52:68:31:BC:00:13%3Bcom.texasfoodmenu.aleinux.texasfoodmenu
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=0C:29:4C:65:90:32:87:8F:31:99:BD:CD:94:D3:52:68:31:BC:00:13%3Bcom.texasfoodmenu.aleinux.texasmenu
 
     You can also add your credentials to an existing key, using this line:
     0C:29:4C:65:90:32:87:8F:31:99:BD:CD:94:D3:52:68:31:BC:00:13;com.texasfoodmenu.aleinux.texasfoodmenu
@@ -13,6 +13,6 @@ https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend
     string in this file.
     -->
     <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
-        AIzaSyB9a7w3EclX-ATFmJXApvJ-DEIus9vDmvw
+        AIzaSyCk0tDPRqdoFk2TpTY85EOxvE-zsWiOpTI
     </string>
 </resources>
