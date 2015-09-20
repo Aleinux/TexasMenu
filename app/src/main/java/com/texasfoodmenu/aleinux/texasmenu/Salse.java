@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.texasfoodmenu.aleinux.texasfoodmenu.R;
-
 public class Salse extends AppCompatActivity {
 
     @Override

@@ -9,7 +9,7 @@
     <string name="stuzzicheria">Stuzzicheria</string>
     <string name="insalate">Insalate</string>
     <string name="stromboli">Stromboli</string>
-    <string name="salse">Salse</string>
+    <string name="salse">Specialità</string>
     <string name="dovesiamo">Dove siamo</string>
     <string name="anniInsieme">10 Anni Insieme</string>
 
@@ -19,25 +19,25 @@
 
     //pizze
     <string name="texas"><b>Texas:</b> <i>pomodoro, mozzarella, salsiccia, melanzane, emmenthal, cipolla</i></string>
-    <string name="capricciosa"><b>Capricciosa:</b> <i>pomodoro, mozz., cotto, piselli*, uovo, carciofi</i></string>
+    <string name="capricciosa"><b>Capricciosa:</b> <i>pomodoro, mozzarella, cotto, piselli*, uovo, carciofi</i></string>
     <string name="margherita"><b>Margherita:</b> <i>pomodoro, mozzarella</i></string>
     <string name="patapizza"><b>Patapizza:</b> <i>pomodoro, mozzarella, patatine fritte*</i></string>
     <string name="primavera"><b>Primavera:</b> <i>pomodoro, mozzarella, rucola, mais, grana</i></string>
     <string name="al_crudo"><b>Al crudo:</b> <i>pomodoro, mozzarella, prosciutto crudo</i></string>
-    <string name="formaggi_4"><b>4 formaggi:</b> <i>pom., mozz., emmenthal, gorgonzola, provola affum.</i></string>
-    <string name="vulcano"><b>Vulcano:</b> <i>pom., mozzarella, salame piccante, funghi, provola affum.</i></string>
-    <string name="fuggitiva"><b>Fuggitiva:</b> <i>pom., mozzarella, speck, emmenthal, olive</i></string>
+    <string name="formaggi_4"><b>4 formaggi:</b> <i>pomodoro, mozzarella, emmenthal, gorgonzola, provola affum.</i></string>
+    <string name="vulcano"><b>Vulcano:</b> <i>pomodoro, mozzarella, salame piccante, funghi, provola affum.</i></string>
+    <string name="fuggitiva"><b>Fuggitiva:</b> <i>pomodoro, mozzarella, speck, emmenthal, olive</i></string>
     <string name="parmigiana"><b>Parmigiana:</b> <i>pomodoro, mozzarella, melanzane, grana</i></string>
     <string name="siciliana"><b>Siciliana:</b> <i>pomodoro, mozzarella, salsiccia, ricotta</i></string>
-    <string name="zero_zero_sette"><b>007:</b> <i>pom., mozzarella, funghi, cotto, wurstell, uovo</i></string>
-    <string name="stagioni_4"><b>4 stagioni:</b> <i>pom., mozz., cotto, funghi, carciofi, salsiccia</i></string>
-    <string name="mezze_stagioni"><b>Mezze stagioni:</b> <i>pom., mozz., cotto, funghi, piselli*, wurstell</i></string>
-    <string name="vegetariana"><b>Vegetariana:</b> <i>pom., mozz., melanzane, zucchine, funghi, piselli*</i></string>
+    <string name="zero_zero_sette"><b>007:</b> <i>pomodoro, mozzarella, funghi, cotto, wurstell, uovo</i></string>
+    <string name="stagioni_4"><b>4 stagioni:</b> <i>pomodoro, mozzarella, cotto, funghi, carciofi, salsiccia</i></string>
+    <string name="mezze_stagioni"><b>Mezze stagioni:</b> <i>pomodoro, mozzarella, cotto, funghi, piselli*, wurstell</i></string>
+    <string name="vegetariana"><b>Vegetariana:</b> <i>pomodoro, mozzarella, melanzane, zucchine, funghi, piselli*</i></string>
     <string name="diavola"><b>Diavola:</b> <i>pomodoro, mozzarella, salame piccante</i></string>
     <string name="frutti_di_mare"><b>Frutti di mare:</b> <i>pomodoro, mozzarella, frutti di mare*</i></string>
     <string name="tonno_e_cipolla"><b>Tonno e cipolla:</b> <i>pomodoro, mozzarella, tonno, cipolla</i></string>
-    <string name="valtellina"><b>Valtellina:</b> <i>pom., mozz., bresaola, rucola, grana</i></string>
-    <string name="tirolese"><b>Tirolese:</b> <i>pom., mozz., speck, emmenthal, funghi</i></string>
+    <string name="valtellina"><b>Valtellina:</b> <i>pomodoro, mozzarella, bresaola, rucola, grana</i></string>
+    <string name="tirolese"><b>Tirolese:</b> <i>pomodoro, mozzarella, speck, emmenthal, funghi</i></string>
     <string name="nancy"><b>Nancy:</b> <i>pomodoro, mozzarella, zucchina, funghi, cotto, grana</i></string>
     <string name="trevisana"><b>Trevisana:</b> <i>pomodoro, mozzarella, radicchio, grana</i></string>
     <string name="autunno"><b>Autunno:</b> <i>pomodoro, mozzarella, funghi, emmenthal, porchetta</i></string>
@@ -111,7 +111,8 @@
     <string name="gabriele_panino"><b>Gabriele:</b> <i>cotoletta di pollo*, wurstell, PK</i></string>
     <string name="texchicken_panino"><b>Tex-chicken:</b> <i>cotoletta di pollo*, speck, emmenthal, P salsa texas</i></string>
     <string name="chips_panino"><b>Chips:</b> <i>patatine* KM</i></string>
-    <string name="royal_panino"><b>Royal:</b> <i>hamburger, cotoletta*, bacon, lattuga, cheddar, P salsa texas</i></string>
+    <string name="royal1_panino"><b>Royal:</b> <i>hamburger, bacon, lattuga, cheddar, P salsa texas</i></string>
+    <string name="royal2_panino"><b>Royal:</b> <i>cotoletta*, bacon, lattuga, cheddar, P salsa texas</i></string>
 
     //piadine
     <string name="piadina1"><b>Piadina 1:</b> <i>kebab, mozzarella, lattuga, PKM</i></string>
@@ -192,14 +193,13 @@
     <string name="e1400">€ 14,00</string>
 
     //Nomi delle pagine
-    <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_pizze">Pizze</string>
     <string name="title_activity_panini">Panini</string>
     <string name="title_activity_piadine">Piadine</string>
     <string name="title_activity_stuzzicheria">Stuzzicheria</string>
     <string name="title_activity_insalate">Insalate</string>
     <string name="title_activity_stromboli">Stromboli</string>
-    <string name="title_activity_salse">Salse</string>
+    <string name="title_activity_salse">Specialità</string>
     <string name="title_activity_dove_siamo">DoveSiamo</string>
     <string name="prodotto_surgelato">* prodotto surgelato</string>
     <string name="title_activity_info">info</string>
@@ -209,6 +209,9 @@
     <string name="createdby">realizzata da: Alessandro Buscema</string>
     <string name="esci">esci</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_maps2">Map</string>
+    <string name="infoPrenotazioni">info e prenotazioni: 3291884116</string>
+    <string name="versione">versione: </string>
+    <string name="numeroVersione">1.0.12</string>
+    <string name="paninozzo">Doppio o\nPaninozzo</string>
 
 </resources>

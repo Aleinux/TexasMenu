@@ -10,6 +10,7 @@
         android:id="@+id/texas"
         android:textSize="46sp"
         android:text="Texas"
+        android:textColor="@color/rosso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -41,5 +42,24 @@
         android:text="@string/createdby"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/numeroVersione"
+        android:id="@+id/numeroVersione"
+        android:layout_above="@+id/createdby"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/versione"
+        android:id="@+id/textView2"
+
+        android:layout_above="@+id/numeroVersione"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -12,6 +12,8 @@
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
         android:stretchColumns="1">
 
         <TableRow>
@@ -32,6 +34,14 @@
                 android:padding="3dip"
                 android:textStyle="bold|italic"
                 android:textColor="#000000" />
+            <TextView
+                android:text="@string/paninozzo"
+                android:textSize="24sp"
+                android:id="@+id/textPaninozzo"
+                android:gravity="end"
+                android:padding="3dip"
+                android:textStyle="bold|italic"
+                android:textColor="#000000" />
         </TableRow>
         <TableRow>
             <TextView
@@ -41,6 +51,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e300"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -54,6 +68,10 @@
                 android:text="@string/e300"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -63,6 +81,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e250"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e350"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -76,6 +98,10 @@
                 android:text="@string/e250"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -85,6 +111,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e200"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e300"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -98,6 +128,10 @@
                 android:text="@string/e300"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -107,6 +141,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e250"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e400"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -120,6 +158,10 @@
                 android:text="@string/e200"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e300"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -129,6 +171,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e250"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e400"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -142,6 +188,10 @@
                 android:text="@string/e250"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e400"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -151,6 +201,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e250"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e350"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -164,6 +218,10 @@
                 android:text="@string/e250"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -173,6 +231,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e300"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -186,6 +248,10 @@
                 android:text="@string/e250"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -195,6 +261,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e250"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e350"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -208,6 +278,10 @@
                 android:text="@string/e250"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -217,6 +291,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e250"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e400"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -230,6 +308,10 @@
                 android:text="@string/e300"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -239,6 +321,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e300"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -252,6 +338,10 @@
                 android:text="@string/e300"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -261,6 +351,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e300"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -274,6 +368,10 @@
                 android:text="@string/e250"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -283,6 +381,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e250"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e350"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -296,6 +398,10 @@
                 android:text="@string/e300"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -305,6 +411,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e500"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -318,6 +428,10 @@
                 android:text="@string/e350"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e500"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -327,6 +441,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e500"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -340,6 +458,10 @@
                 android:text="@string/e300"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e450"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -349,6 +471,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e500"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -362,6 +488,10 @@
                 android:text="@string/e350"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e500"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
@@ -371,6 +501,10 @@
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e500"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>
@@ -384,15 +518,38 @@
                 android:text="@string/e150"
                 android:gravity="end"
                 android:padding="3dip"/>
+            <TextView
+                android:text="@string/e250"
+                android:gravity="end"
+                android:padding="3dip"/>
         </TableRow>
         <TableRow>
             <TextView
                 android:layout_column="1"
-                android:text="@string/royal_panino"
+                android:text="@string/royal1_panino"
                 android:padding="3dip"
                 android:layout_span="2"/>
             <TextView
                 android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e500"
+                android:gravity="end"
+                android:padding="3dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="@string/royal2_panino"
+                android:padding="3dip"
+                android:layout_span="2"/>
+            <TextView
+                android:text="@string/e350"
+                android:gravity="end"
+                android:padding="3dip"/>
+            <TextView
+                android:text="@string/e500"
                 android:gravity="end"
                 android:padding="3dip"/>
         </TableRow>

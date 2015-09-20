@@ -8,8 +8,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.texasfoodmenu.aleinux.texasfoodmenu.R;
-
 public class Panini extends AppCompatActivity {
 
     @Override
@@ -21,6 +19,7 @@ public class Panini extends AppCompatActivity {
         Typeface typeface = Typeface.createFromAsset(getAssets(),"Playbill.ttf");
         ((TextView) findViewById(R.id.textPanini)).setTypeface(typeface);
         ((TextView) findViewById(R.id.textNormale)).setTypeface(typeface);
+        ((TextView) findViewById(R.id.textPaninozzo)).setTypeface(typeface);
     }
 
     @Override

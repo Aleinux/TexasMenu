@@ -12,8 +12,6 @@ import android.view.animation.ScaleAnimation;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
-import com.texasfoodmenu.aleinux.texasfoodmenu.R;
-
 public class Pizze extends AppCompatActivity {
 
     private float mScale = 1f;

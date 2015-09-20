@@ -92,4 +92,15 @@
         android:layout_alignRight="@+id/imageView"
         android:layout_alignEnd="@+id/imageView" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="info e prenotazioni: 3291884116"
+        android:textSize="24dp"
+        android:textColor="@color/nero"
+        android:id="@+id/infoPrenotazioni"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

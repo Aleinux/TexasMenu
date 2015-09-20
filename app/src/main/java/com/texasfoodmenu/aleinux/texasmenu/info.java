@@ -2,15 +2,12 @@ package com.texasfoodmenu.aleinux.texasmenu;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.text.util.Linkify;
-
-import com.texasfoodmenu.aleinux.texasfoodmenu.R;
 
 
 public class info extends AppCompatActivity {
