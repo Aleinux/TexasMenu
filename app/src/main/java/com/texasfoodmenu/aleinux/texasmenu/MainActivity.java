@@ -74,12 +74,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button button_salse = (Button)findViewById(R.id.button_salse);
-        button_salse.setOnClickListener(new View.OnClickListener() {
+        Button button_specialita = (Button)findViewById(R.id.button_specialita);
+        button_specialita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_salse = new Intent(MainActivity.this, Salse.class);
-                startActivity(intent_salse);
+                Intent intent_specialita = new Intent(MainActivity.this, Specialita.class);
+                startActivity(intent_specialita);
             }
         });
 

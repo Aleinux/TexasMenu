@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Salse extends AppCompatActivity {
+public class Specialita extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_salse);
+        setContentView(R.layout.activity_specialita);
 
     }
 
@@ -31,7 +31,7 @@ public class Salse extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent i = new Intent(Salse.this, info.class);
+            Intent i = new Intent(Specialita.this, info.class);
             startActivity(i);
             return true;
         }

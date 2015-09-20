@@ -57,8 +57,8 @@
             android:label="@string/title_activity_stromboli" >
         </activity>
         <activity
-            android:name="com.texasfoodmenu.aleinux.texasmenu.Salse"
-            android:label="@string/title_activity_salse" >
+            android:name=".Specialita"
+            android:label="@string/title_activity_specialita" >
         </activity>
         <activity
             android:name="com.texasfoodmenu.aleinux.texasmenu.Pizze"
