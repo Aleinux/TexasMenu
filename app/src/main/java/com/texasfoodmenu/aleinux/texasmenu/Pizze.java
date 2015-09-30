@@ -28,7 +28,6 @@ public class Pizze extends AppCompatActivity {
         ((TextView) findViewById(R.id.textNormale)).setTypeface(typeface);
         ((TextView) findViewById(R.id.textMaxi)).setTypeface(typeface);
 
-        scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
     }
 
     @Override
@@ -53,51 +52,5 @@ public class Pizze extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public boolean onTouchEvent(MotionEvent ev) {
-        scaleGestureDetector.onTouchEvent(ev);
-        return true;
-    }
-/*
-    private class ScaleListener extends
-            ScaleGestureDetector.SimpleOnScaleGestureListener {
-        @Override
-        public boolean onScale(ScaleGestureDetector detector) {
-            scale *= detector.getScaleFactor();
-            scale = Math.max(0.1f, Math.min(scale, 5.0f));
-            matrix.setScale(scale, scale);
-            //tab.setImageMatrix(matrix);
-            return true;
-        }
-    }
-*/
-    private class ScaleListener extends
-            ScaleGestureDetector.SimpleOnScaleGestureListener {
-        @Override
-        public boolean onScale(ScaleGestureDetector detector) {
-            float scale = 1 - detector.getScaleFactor();
-
-            float prevScale = mScale;
-            mScale += scale;
-
-            if (mScale < 0.1f) // Minimum scale condition:
-                mScale = 0.1f;
-
-            if (mScale > 10f) // Maximum scale condition:
-                mScale = 10f;
-            ScaleAnimation scaleAnimation = new ScaleAnimation(1f / prevScale,
-                    1f / mScale, 1f / prevScale, 1f / mScale,
-                    detector.getFocusX(), detector.getFocusY());
-            scaleAnimation.setDuration(0);
-            scaleAnimation.setFillAfter(true);
-
-// your layout you want pinch zoom
-            TableLayout layout = (TableLayout) findViewById(R.id.tabella);
-            layout.startAnimation(scaleAnimation);
-
-            return true;
-        }
     }
 }

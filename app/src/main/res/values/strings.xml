@@ -209,9 +209,9 @@
     <string name="createdby">realizzata da: Alessandro Buscema</string>
     <string name="esci">esci</string>
     <string name="title_activity_maps">Map</string>
-    <string name="infoPrenotazioni">info e prenotazioni: 3291884116</string>
     <string name="versione">versione: </string>
-    <string name="numeroVersione">1.0.12</string>
+    <string name="numeroVersione">1.1</string>
     <string name="paninozzo">Doppio o\nPaninozzo</string>
+    <string name="infoPrenotazioni">info e prenotazioni: 3291884116</string>
 
 </resources>

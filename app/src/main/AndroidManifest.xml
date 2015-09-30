@@ -10,6 +10,14 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <permission
+        android:name="com.texasfoodmenu.aleinux.texasmenu.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.texasfoodmenu.aleinux.texasmenu.permission.MAPS_RECEIVE" />
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

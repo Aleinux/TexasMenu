@@ -15,7 +15,7 @@ android {
         applicationId "com.texasfoodmenu.aleinux.texasmenu"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 13
+        versionCode 14
         versionName "@string/numeroVersione"
     }
     buildTypes {
